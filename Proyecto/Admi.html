@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="StylesI.CSS">
+    <title>Administracion</title>
+    <style>
+        body { background: linear-gradient(to bottom, #f9eb99,#f8a0cc, #fb91c6);
+          font-family: "Times New Roman", Times, serif;
+                font-size: 16px;
+                max-width: 800px; /* Establece el ancho máximo del formulario */
+                margin: 0 auto;
+       }
+       .logo {
+        max-width: 80px; 
+        display: block; 
+        margin: 0 auto; 
+        
+    }
+       </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Barra de Navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+            <img src="Imagen/Logo.png" class="logo" alt="Logo de StudentCareerGuide"> <a class="navbar-brand" href="#">StudentCareerGuide</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+    <form action="./Usuario/index.php"         >
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">"No compartiremos tu correo electrónico con ninguna otra persona o entidad. Tu privacidad es importante para nosotros y tratamos la información con la máxima confidencialidad."
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Recordar mas tarde</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+      </form>  
+</body>
+</html>

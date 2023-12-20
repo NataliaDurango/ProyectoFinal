@@ -1,0 +1,178 @@
+/* Estilos para el enlace en el encabezado */
+.page-link {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 20px; 
+    text-decoration: none; 
+    color: #007bff; 
+}
+.navbar-nav .nav-link{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #007bff!important;   
+}
+.navbar-nav .nav-link:hover {
+    color: #0056b3; /* Cambia el color al pasar el ratón sobre el enlace */
+    text-decoration: underline; /* Agrega subrayado al pasar el ratón sobre el enlace */
+}
+
+
+
+
+/* Estilos para el título "¡Evaluaciones Psicologicas!" */
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(48, 7, 230);
+    text-align: center;
+}
+.containerTipos {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+
+/* Estilos para todos los párrafos */
+p {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: #000; 
+}
+/* Estilo para párrafos dentro de la clase 'shadow' */
+.shadow p {
+    max-width: 800px; 
+    margin: 0 auto
+}
+
+/* Ancho máximo para el contenedor de los párrafos */
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+.shadow text-justify p {
+     max-width: 800px; 
+    margin: 0 auto;
+}
+/* Estilos para los títulos */
+h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; 
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; 
+    text-align: justify;
+}
+h4 {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; 
+    text-align: center;
+}
+/* Ancho máximo para el contenedor de los Titulos */
+h3 {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+/* Ancho máximo para el contenedor de los parrafos */
+.container {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+
+/* Estilos para los enlaces dentro del footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+/* Estilos para el fondo de la página */
+body {
+    background: linear-gradient(to bottom, #f9eb99,#f8a0cc, #f988c1); 
+}
+/* Estilos para el footer */
+
+footer {
+    background-color: #1c1c1c;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h4, .footer-section h5, .footer-section h6 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p.sn, .footer-section p.rs, .footer-section p.ei {
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-links, .interest-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li, .interest-links li {
+    margin-bottom: 8px;
+}
+
+.social-links a, .interest-links a {
+    color: #ccc;
+}
+
+.social-links a:hover, .interest-links a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*ESTILO LOGO*/
+.logo {
+    max-width: 80px; 
+    display: block; 
+    margin: 0 auto; 
+    
+}
+    .info-section {
+      border: 2px solid #f80b7a;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+  
+
